@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.Step .Step__active {
+.Step li{
     position: relative;
     width: 60px;
     height: 60px; 
@@ -11,14 +11,14 @@
     list-style: none;
 }
 
-.Step .Step__active .img__ellipse{
+.Step li .img__ellipse{
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.Step .Step__active .img__path{
+.Step li .img__path{
     position:absolute;
     top: 50%;
     left: 50%;
@@ -36,10 +36,6 @@
     z-index: -1;
   }
 
-/* .Step li:before {
-    content: '';
-    width: 100%e;
-    height: 2px;
-    position: relative;
-    z-index: 1000;
-  } */
+  .Step li:last-child:after {
+    content: none;
+  }
