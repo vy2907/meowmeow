@@ -25,6 +25,11 @@
     transform: translate(-50%,-50%);
 }
 
+.Step .Step__text{
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
 .Step li:after {
     content: '';
     position: absolute; 
@@ -39,3 +44,5 @@
   .Step li:last-child:after {
     content: none;
   }
+
+ 
