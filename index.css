@@ -14,7 +14,7 @@
 .steps .steps__item:after{
     content: '';
     position: absolute; 
-    background: burlywood;
+    background: #DDDDDD;
     width: 80px;
     height: 2px;
     top: 10px;
